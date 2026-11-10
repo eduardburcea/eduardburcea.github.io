@@ -1,0 +1,88 @@
+
+/* LinkedIn blue */
+.md-button.btn-linkedin {
+  background-color: #0A66C2;
+  border-color: #0A66C2;
+  color: #FFFFFF;
+}
+
+/* Proton purple */
+.md-button.btn-proton {
+  background-color: #6D4AFF;
+  border-color: #6D4AFF;
+  color: #FFFFFF;
+}
+
+/* Emerald green */
+.md-button.btn-green {
+  background-color: #16856B;
+  border-color: #16856B;
+  color: #FFFFFF;
+}
+
+/* Deep blue */
+.md-button.btn-deepblue {
+  background-color: #2347A5;
+  border-color: #2347A5;
+  color: #FFFFFF;
+}
+
+/* Subtle hover effect */
+.md-button.btn-linkedin:hover,
+.md-button.btn-proton:hover,
+.md-button.btn-green:hover,
+.md-button.btn-deepblue:hover {
+  filter: brightness(1.15);
+}
+
+/* Featured project cards */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 14px;
+  padding: 8px;
+  background: var(--md-code-bg-color);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  transition: border-color 0.2s ease,
+              box-shadow 0.2s ease,
+              transform 0.2s ease;
+}
+
+/* Stronger hover effect */
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: #2347A5;
+  box-shadow: 0 10px 25px rgba(35, 71, 165, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Project titles */
+.md-typeset .grid.cards > ul > li strong {
+  color: var(--md-default-fg-color);
+}
+
+/* Coming soon label */
+.md-typeset .grid.cards small {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 9px;
+  border-radius: 20px;
+  background: rgba(35, 71, 165, 0.10);
+  color: #5276c9;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* Technology tags */
+.md-typeset .grid.cards code {
+  display: inline-block;
+  margin: 3px 2px 3px 0;
+  padding: 4px 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+/* Project links */
+.md-typeset .grid.cards a {
+  font-weight: 600;
+}
